@@ -1,10 +1,9 @@
-import Image from "next/image";
+import HomePageLayout from "@/components/navbar/Homepage/HomePageLayout";
 
 export default function Home() {
   return (
     <div>
-      <h1>Testing</h1>
-      <p>Hello</p>
+      <HomePageLayout />
     </div>
   );
 }
